@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    background-color: #F7F7F7;
+}
+
+
+
+.sircle{
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 27px;
+    
+}
+
+.wrapper-header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    z-index: 1;
+    align-items: baseline;  
+    
+    
+}
+
+nav ul{
+    display: flex;
+    margin: 30px;
+}
+
+nav ul li{
+ list-style: none;
+ margin: 10px;
+ font-size: 20px;
+}
+
+header{
+    width: 100%;
+    z-index: 1;
+    
+}
+.nav-list::after{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 3px;
+    height: 20px;
+    background-color: black;
+    margin-left: 10px;
+}
+
+section h2{
+    margin-top: 50px;
+    margin-left: 190px;
+    font-size: 30px;
+}
+.cestune{
+    font-size: 32px;
+    width: 500px;
+    margin-left: 190px;
+    margin-top: 100px;
+}
+section h3{
+    margin-top: 250px;
+    margin-left: 190px;
+    font-size: 30px;
+}
+
+.impact{
+    width: 550px;
+    font-size: 25px;
+    margin-top: 100px;
+    margin-left: 190px;
+
+}
+
+
+.img{
+    border-radius: 50%;
+    width: 300px
+}
+
+.profile{
+    text-align: center;
+    background-color: white;
+    width: 325px;
+    margin-top: 50px;
+}
+
+.group2{
+    display: flex;
+    justify-content: center;
+}    
+
+.group3{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+    
+}
+
+.group-list{
+    background-color: white;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.emplois{
+    font-size: 18px;
+    width: 600px;
+    margin-left: 190px;
+    margin-top: 40px;
+}
+
+
+.projectlist{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    margin-left: 190px;
+    
+    
+
+}
+.project{
+    background-color: blue;
+    height: 150px;
+    width: 315px;
+    padding:10px;
+    margin: 10px;
+    
+    
+
+}
+.projectlist p{
+    color: white;
+    margin-top: 10px;
+    
+}
